@@ -1,0 +1,22 @@
+.common__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
+    url("https://images.unsplash.com/photo-1564069114553-7215e1ff1890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80")
+      no-repeat center center;
+  background-size: cover;
+  padding: 100px 0px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.common__section h1 {
+  color: #fff;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  .common__section {
+    padding: 70px 0px;
+  }
+  .common__section h1 {
+    font-size: 1.4rem;
+  }
+}
